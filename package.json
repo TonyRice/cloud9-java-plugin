@@ -1,22 +1,25 @@
 {
   "name": "c9.ide.language.java",
-  "description": "A plugin for java 8 development",
+  "description": "A plugin for setting up a java development environment.",
   "version": "0.0.1",
-  "author": "",
+  "author": "Tony Rice <tony@tonyrice.me>",
   "contributors": [
     {
-      "name": "",
-      "email": ""
+      "name": "Tony Rice",
+      "email": "tony@tonyrice.me"
     }
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/TonyRice/cloud9-java-plugin.git"
   },
   "plugins": {},
   "installer": "install.js",
   "categories": [
     "misc"
   ],
+  "engines": {
+    "c9": ">=3.0.0"
+  },
   "licenses": []
 }
